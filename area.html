@@ -1,0 +1,22 @@
+<html>
+	<head>
+		<script>
+			function area()
+			{
+				var rad = document.getElementById("N").value;
+
+				var area = Number(rad) * Number(rad) * 22/7;
+				window.alert("The area is : "+area);
+			}
+			
+		</script>
+	</head>
+	<center>
+	<body>
+		<br>
+		<h1>Find area of given radius</h1>
+		Enter The radius in cm : <input type="text" name="n" id = "N"/>
+		<inline-block><button onClick="area()">CHECK</button>
+	</body>
+	</center>
+</html>

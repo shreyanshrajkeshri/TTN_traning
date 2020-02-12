@@ -1,0 +1,33 @@
+<html>
+	<head>
+		<script>
+			function simpleinterest()
+			{
+				var pricipal = document.getElementById("P").value;
+                var amount = document.getElementById("I").value;
+                var interest = document.getElementById("T").value;
+
+                var total = (Number(pricipal) * Number(amount) * Number(interest))/100;
+
+
+				window.alert("The Simple interest is : "+total);
+			}
+			
+		</script>
+	</head>
+	<center>
+	<body>
+		<br>
+		<h1>Find Simple Interest</h1>
+		Enter The principal : <input type="text" name="principal" id = "P"/><br>
+		
+		Enter The interest : <input type="text" name="interest" id = "I"/>
+		<br>
+
+		Enter The time : <input type="text" name="time" id = "T"/><br>
+		<hr>
+
+		<button onClick="simpleinterest()">CHECK</button>
+	</body>
+	</center>
+</html>
