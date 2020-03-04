@@ -10,6 +10,14 @@
 		E149FA19240E0FC70044A5CF /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E149FA18240E0FC70044A5CF /* WelcomeViewController.swift */; };
 		E149FA1B240E0FD80044A5CF /* SegmentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E149FA1A240E0FD80044A5CF /* SegmentViewController.swift */; };
 		E149FA1D240E13630044A5CF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E149FA1C240E13630044A5CF /* ViewController.swift */; };
+		E15A556A240E43810039AD71 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E15A5569240E43810039AD71 /* FirstViewController.swift */; };
+		E15A556C240E438A0039AD71 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E15A556B240E438A0039AD71 /* SecondViewController.swift */; };
+		E15A556E240E43930039AD71 /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E15A556D240E43930039AD71 /* ThirdViewController.swift */; };
+		E15A5570240E439E0039AD71 /* FourthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E15A556F240E439E0039AD71 /* FourthViewController.swift */; };
+		E15A5572240E43AB0039AD71 /* FifthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E15A5571240E43AB0039AD71 /* FifthViewController.swift */; };
+		E15A557B240EB6D30039AD71 /* MainTabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E15A557A240EB6D30039AD71 /* MainTabViewController.swift */; };
+		E15A557D240EB72D0039AD71 /* TabOneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E15A557C240EB72D0039AD71 /* TabOneViewController.swift */; };
+		E15A557F240EB73C0039AD71 /* TabTwoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E15A557E240EB73C0039AD71 /* TabTwoViewController.swift */; };
 		E18592DA240D736A008C42D3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E18592D9240D736A008C42D3 /* AppDelegate.swift */; };
 		E18592DC240D736A008C42D3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E18592DB240D736A008C42D3 /* SceneDelegate.swift */; };
 		E18592E1240D736A008C42D3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E18592DF240D736A008C42D3 /* Main.storyboard */; };
@@ -40,6 +48,14 @@
 		E149FA18240E0FC70044A5CF /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
 		E149FA1A240E0FD80044A5CF /* SegmentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SegmentViewController.swift; sourceTree = "<group>"; };
 		E149FA1C240E13630044A5CF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E15A5569240E43810039AD71 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		E15A556B240E438A0039AD71 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		E15A556D240E43930039AD71 /* ThirdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
+		E15A556F240E439E0039AD71 /* FourthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FourthViewController.swift; sourceTree = "<group>"; };
+		E15A5571240E43AB0039AD71 /* FifthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FifthViewController.swift; sourceTree = "<group>"; };
+		E15A557A240EB6D30039AD71 /* MainTabViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabViewController.swift; sourceTree = "<group>"; };
+		E15A557C240EB72D0039AD71 /* TabOneViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabOneViewController.swift; sourceTree = "<group>"; };
+		E15A557E240EB73C0039AD71 /* TabTwoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabTwoViewController.swift; sourceTree = "<group>"; };
 		E18592D6240D736A008C42D3 /* iOS_basicApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOS_basicApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E18592D9240D736A008C42D3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E18592DB240D736A008C42D3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -80,6 +96,38 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E15A5573240E5EA30039AD71 /* PushAndPop */ = {
+			isa = PBXGroup;
+			children = (
+				E15A5569240E43810039AD71 /* FirstViewController.swift */,
+				E15A5571240E43AB0039AD71 /* FifthViewController.swift */,
+				E15A556F240E439E0039AD71 /* FourthViewController.swift */,
+				E15A556D240E43930039AD71 /* ThirdViewController.swift */,
+				E15A556B240E438A0039AD71 /* SecondViewController.swift */,
+			);
+			path = PushAndPop;
+			sourceTree = "<group>";
+		};
+		E15A5574240E5F0E0039AD71 /* UISignUp */ = {
+			isa = PBXGroup;
+			children = (
+				E149FA18240E0FC70044A5CF /* WelcomeViewController.swift */,
+				E149FA1A240E0FD80044A5CF /* SegmentViewController.swift */,
+				E149FA1C240E13630044A5CF /* ViewController.swift */,
+			);
+			path = UISignUp;
+			sourceTree = "<group>";
+		};
+		E15A5579240EB6710039AD71 /* Tab */ = {
+			isa = PBXGroup;
+			children = (
+				E15A557A240EB6D30039AD71 /* MainTabViewController.swift */,
+				E15A557C240EB72D0039AD71 /* TabOneViewController.swift */,
+				E15A557E240EB73C0039AD71 /* TabTwoViewController.swift */,
+			);
+			path = Tab;
+			sourceTree = "<group>";
+		};
 		E18592CD240D736A008C42D3 = {
 			isa = PBXGroup;
 			children = (
@@ -109,9 +157,9 @@
 				E18592E2240D736C008C42D3 /* Assets.xcassets */,
 				E18592E4240D736C008C42D3 /* LaunchScreen.storyboard */,
 				E18592E7240D736C008C42D3 /* Info.plist */,
-				E149FA18240E0FC70044A5CF /* WelcomeViewController.swift */,
-				E149FA1A240E0FD80044A5CF /* SegmentViewController.swift */,
-				E149FA1C240E13630044A5CF /* ViewController.swift */,
+				E15A5574240E5F0E0039AD71 /* UISignUp */,
+				E15A5573240E5EA30039AD71 /* PushAndPop */,
+				E15A5579240EB6710039AD71 /* Tab */,
 			);
 			path = iOS_basicApp;
 			sourceTree = "<group>";
@@ -265,10 +313,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E15A5572240E43AB0039AD71 /* FifthViewController.swift in Sources */,
+				E15A557D240EB72D0039AD71 /* TabOneViewController.swift in Sources */,
 				E149FA1D240E13630044A5CF /* ViewController.swift in Sources */,
 				E149FA19240E0FC70044A5CF /* WelcomeViewController.swift in Sources */,
 				E149FA1B240E0FD80044A5CF /* SegmentViewController.swift in Sources */,
+				E15A5570240E439E0039AD71 /* FourthViewController.swift in Sources */,
+				E15A556A240E43810039AD71 /* FirstViewController.swift in Sources */,
+				E15A557B240EB6D30039AD71 /* MainTabViewController.swift in Sources */,
+				E15A557F240EB73C0039AD71 /* TabTwoViewController.swift in Sources */,
+				E15A556C240E438A0039AD71 /* SecondViewController.swift in Sources */,
 				E18592DA240D736A008C42D3 /* AppDelegate.swift in Sources */,
+				E15A556E240E43930039AD71 /* ThirdViewController.swift in Sources */,
 				E18592DC240D736A008C42D3 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
