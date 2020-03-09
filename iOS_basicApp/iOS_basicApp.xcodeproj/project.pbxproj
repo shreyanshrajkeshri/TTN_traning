@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E1051E6A240FB47B005D47F0 /* UIPageMainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1051E69240FB47B005D47F0 /* UIPageMainViewController.swift */; };
+		E1051E6C240FB9F8005D47F0 /* oneViewControllerForPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1051E6B240FB9F8005D47F0 /* oneViewControllerForPage.swift */; };
+		E1051E6E240FBA0F005D47F0 /* twoViewControllerForPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1051E6D240FBA0F005D47F0 /* twoViewControllerForPage.swift */; };
+		E1051E70240FBA23005D47F0 /* threeViewControllerForPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1051E6F240FBA23005D47F0 /* threeViewControllerForPage.swift */; };
 		E149FA19240E0FC70044A5CF /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E149FA18240E0FC70044A5CF /* WelcomeViewController.swift */; };
 		E149FA1B240E0FD80044A5CF /* SegmentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E149FA1A240E0FD80044A5CF /* SegmentViewController.swift */; };
 		E149FA1D240E13630044A5CF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E149FA1C240E13630044A5CF /* ViewController.swift */; };
@@ -25,6 +29,10 @@
 		E18592E6240D736C008C42D3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E18592E4240D736C008C42D3 /* LaunchScreen.storyboard */; };
 		E18592F1240D736C008C42D3 /* iOS_basicAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E18592F0240D736C008C42D3 /* iOS_basicAppTests.swift */; };
 		E18592FC240D736C008C42D3 /* iOS_basicAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E18592FB240D736C008C42D3 /* iOS_basicAppUITests.swift */; };
+		E1875EEE24160C1E007A9A6C /* TVCellForMainTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1875EEC24160C1E007A9A6C /* TVCellForMainTable.swift */; };
+		E1875EEF24160C1E007A9A6C /* TVCellForMainTable.xib in Resources */ = {isa = PBXBuildFile; fileRef = E1875EED24160C1E007A9A6C /* TVCellForMainTable.xib */; };
+		E1875EF3241615D1007A9A6C /* TabBarViaStoryBoard.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1875EF2241615D1007A9A6C /* TabBarViaStoryBoard.swift */; };
+		E1875EFE24161FB3007A9A6C /* mainViewControllerWithTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1875EFD24161FB3007A9A6C /* mainViewControllerWithTable.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +53,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E1051E69240FB47B005D47F0 /* UIPageMainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIPageMainViewController.swift; sourceTree = "<group>"; };
+		E1051E6B240FB9F8005D47F0 /* oneViewControllerForPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = oneViewControllerForPage.swift; sourceTree = "<group>"; };
+		E1051E6D240FBA0F005D47F0 /* twoViewControllerForPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = twoViewControllerForPage.swift; sourceTree = "<group>"; };
+		E1051E6F240FBA23005D47F0 /* threeViewControllerForPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = threeViewControllerForPage.swift; sourceTree = "<group>"; };
 		E149FA18240E0FC70044A5CF /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
 		E149FA1A240E0FD80044A5CF /* SegmentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SegmentViewController.swift; sourceTree = "<group>"; };
 		E149FA1C240E13630044A5CF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -69,6 +81,10 @@
 		E18592F7240D736C008C42D3 /* iOS_basicAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iOS_basicAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E18592FB240D736C008C42D3 /* iOS_basicAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOS_basicAppUITests.swift; sourceTree = "<group>"; };
 		E18592FD240D736C008C42D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E1875EEC24160C1E007A9A6C /* TVCellForMainTable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TVCellForMainTable.swift; sourceTree = "<group>"; };
+		E1875EED24160C1E007A9A6C /* TVCellForMainTable.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TVCellForMainTable.xib; sourceTree = "<group>"; };
+		E1875EF2241615D1007A9A6C /* TabBarViaStoryBoard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViaStoryBoard.swift; sourceTree = "<group>"; };
+		E1875EFD24161FB3007A9A6C /* mainViewControllerWithTable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = mainViewControllerWithTable.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +112,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E1051E71240FBA2C005D47F0 /* PageViewController */ = {
+			isa = PBXGroup;
+			children = (
+				E1051E69240FB47B005D47F0 /* UIPageMainViewController.swift */,
+				E1051E6B240FB9F8005D47F0 /* oneViewControllerForPage.swift */,
+				E1051E6D240FBA0F005D47F0 /* twoViewControllerForPage.swift */,
+				E1051E6F240FBA23005D47F0 /* threeViewControllerForPage.swift */,
+			);
+			path = PageViewController;
+			sourceTree = "<group>";
+		};
 		E15A5573240E5EA30039AD71 /* PushAndPop */ = {
 			isa = PBXGroup;
 			children = (
@@ -160,6 +187,9 @@
 				E15A5574240E5F0E0039AD71 /* UISignUp */,
 				E15A5573240E5EA30039AD71 /* PushAndPop */,
 				E15A5579240EB6710039AD71 /* Tab */,
+				E1051E71240FBA2C005D47F0 /* PageViewController */,
+				E1875EF424161704007A9A6C /* MainTable */,
+				E1875EF2241615D1007A9A6C /* TabBarViaStoryBoard.swift */,
 			);
 			path = iOS_basicApp;
 			sourceTree = "<group>";
@@ -180,6 +210,16 @@
 				E18592FD240D736C008C42D3 /* Info.plist */,
 			);
 			path = iOS_basicAppUITests;
+			sourceTree = "<group>";
+		};
+		E1875EF424161704007A9A6C /* MainTable */ = {
+			isa = PBXGroup;
+			children = (
+				E1875EFD24161FB3007A9A6C /* mainViewControllerWithTable.swift */,
+				E1875EEC24160C1E007A9A6C /* TVCellForMainTable.swift */,
+				E1875EED24160C1E007A9A6C /* TVCellForMainTable.xib */,
+			);
+			path = MainTable;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -287,6 +327,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E18592E6240D736C008C42D3 /* LaunchScreen.storyboard in Resources */,
+				E1875EEF24160C1E007A9A6C /* TVCellForMainTable.xib in Resources */,
 				E18592E3240D736C008C42D3 /* Assets.xcassets in Resources */,
 				E18592E1240D736A008C42D3 /* Main.storyboard in Resources */,
 			);
@@ -319,13 +360,20 @@
 				E149FA19240E0FC70044A5CF /* WelcomeViewController.swift in Sources */,
 				E149FA1B240E0FD80044A5CF /* SegmentViewController.swift in Sources */,
 				E15A5570240E439E0039AD71 /* FourthViewController.swift in Sources */,
+				E1051E6E240FBA0F005D47F0 /* twoViewControllerForPage.swift in Sources */,
 				E15A556A240E43810039AD71 /* FirstViewController.swift in Sources */,
+				E1051E6C240FB9F8005D47F0 /* oneViewControllerForPage.swift in Sources */,
 				E15A557B240EB6D30039AD71 /* MainTabViewController.swift in Sources */,
 				E15A557F240EB73C0039AD71 /* TabTwoViewController.swift in Sources */,
 				E15A556C240E438A0039AD71 /* SecondViewController.swift in Sources */,
+				E1875EF3241615D1007A9A6C /* TabBarViaStoryBoard.swift in Sources */,
 				E18592DA240D736A008C42D3 /* AppDelegate.swift in Sources */,
 				E15A556E240E43930039AD71 /* ThirdViewController.swift in Sources */,
+				E1051E6A240FB47B005D47F0 /* UIPageMainViewController.swift in Sources */,
+				E1875EFE24161FB3007A9A6C /* mainViewControllerWithTable.swift in Sources */,
 				E18592DC240D736A008C42D3 /* SceneDelegate.swift in Sources */,
+				E1051E70240FBA23005D47F0 /* threeViewControllerForPage.swift in Sources */,
+				E1875EEE24160C1E007A9A6C /* TVCellForMainTable.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
