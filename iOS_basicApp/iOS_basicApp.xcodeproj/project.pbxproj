@@ -22,6 +22,8 @@
 		E15A557B240EB6D30039AD71 /* MainTabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E15A557A240EB6D30039AD71 /* MainTabViewController.swift */; };
 		E15A557D240EB72D0039AD71 /* TabOneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E15A557C240EB72D0039AD71 /* TabOneViewController.swift */; };
 		E15A557F240EB73C0039AD71 /* TabTwoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E15A557E240EB73C0039AD71 /* TabTwoViewController.swift */; };
+		E17F94A52416292000B086E2 /* CVInsideTVviewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E17F94A42416292000B086E2 /* CVInsideTVviewController.swift */; };
+		E17F94A724162AF200B086E2 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E17F94A624162AF200B086E2 /* TableViewCell.swift */; };
 		E18592DA240D736A008C42D3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E18592D9240D736A008C42D3 /* AppDelegate.swift */; };
 		E18592DC240D736A008C42D3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E18592DB240D736A008C42D3 /* SceneDelegate.swift */; };
 		E18592E1240D736A008C42D3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E18592DF240D736A008C42D3 /* Main.storyboard */; };
@@ -68,6 +70,8 @@
 		E15A557A240EB6D30039AD71 /* MainTabViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabViewController.swift; sourceTree = "<group>"; };
 		E15A557C240EB72D0039AD71 /* TabOneViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabOneViewController.swift; sourceTree = "<group>"; };
 		E15A557E240EB73C0039AD71 /* TabTwoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabTwoViewController.swift; sourceTree = "<group>"; };
+		E17F94A42416292000B086E2 /* CVInsideTVviewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CVInsideTVviewController.swift; sourceTree = "<group>"; };
+		E17F94A624162AF200B086E2 /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
 		E18592D6240D736A008C42D3 /* iOS_basicApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOS_basicApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E18592D9240D736A008C42D3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E18592DB240D736A008C42D3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -148,6 +152,7 @@
 		E15A5579240EB6710039AD71 /* Tab */ = {
 			isa = PBXGroup;
 			children = (
+				E1875EF2241615D1007A9A6C /* TabBarViaStoryBoard.swift */,
 				E15A557A240EB6D30039AD71 /* MainTabViewController.swift */,
 				E15A557C240EB72D0039AD71 /* TabOneViewController.swift */,
 				E15A557E240EB73C0039AD71 /* TabTwoViewController.swift */,
@@ -189,7 +194,8 @@
 				E15A5579240EB6710039AD71 /* Tab */,
 				E1051E71240FBA2C005D47F0 /* PageViewController */,
 				E1875EF424161704007A9A6C /* MainTable */,
-				E1875EF2241615D1007A9A6C /* TabBarViaStoryBoard.swift */,
+				E17F94A42416292000B086E2 /* CVInsideTVviewController.swift */,
+				E17F94A624162AF200B086E2 /* TableViewCell.swift */,
 			);
 			path = iOS_basicApp;
 			sourceTree = "<group>";
@@ -370,6 +376,8 @@
 				E18592DA240D736A008C42D3 /* AppDelegate.swift in Sources */,
 				E15A556E240E43930039AD71 /* ThirdViewController.swift in Sources */,
 				E1051E6A240FB47B005D47F0 /* UIPageMainViewController.swift in Sources */,
+				E17F94A52416292000B086E2 /* CVInsideTVviewController.swift in Sources */,
+				E17F94A724162AF200B086E2 /* TableViewCell.swift in Sources */,
 				E1875EFE24161FB3007A9A6C /* mainViewControllerWithTable.swift in Sources */,
 				E18592DC240D736A008C42D3 /* SceneDelegate.swift in Sources */,
 				E1051E70240FBA23005D47F0 /* threeViewControllerForPage.swift in Sources */,

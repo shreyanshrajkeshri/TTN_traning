@@ -12,7 +12,7 @@ class mainViewControllerWithTable: UIViewController {
     
     @IBOutlet weak var mainTableView: UITableView!
     
-    var dataArray = ["Assignment 1", "Assignment 2", "Assignment 3", "Assignment 4", "Assignment 5"]
+    var dataArray = ["Assignment 1", "Assignment 2", "Assignment 3", "Assignment 4", "Assignment 5", "Assignment 6"]
     
     lazy var subViewControllers: [UIViewController] = { return [
         
@@ -25,7 +25,9 @@ class mainViewControllerWithTable: UIViewController {
         
         UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "UIPageMainViewController") as! UIPageMainViewController,
         
-        UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "TabBarViaStoryBoard") as! TabBarViaStoryBoard ]
+        UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "TabBarViaStoryBoard") as! TabBarViaStoryBoard,
+        
+        UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "CVInsideTVviewController") as! CVInsideTVviewController ]
 
     }()
 
