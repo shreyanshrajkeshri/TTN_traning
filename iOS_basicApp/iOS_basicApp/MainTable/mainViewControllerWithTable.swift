@@ -12,7 +12,13 @@ class mainViewControllerWithTable: UIViewController {
     
     @IBOutlet weak var mainTableView: UITableView!
     
-    var dataArray = ["Assignment 1", "Assignment 2", "Assignment 3", "Assignment 4", "Assignment 5", "Assignment 6"]
+    var dataArray = ["Sign Up Form",
+                     "Push And Pop",
+                     "Tab Bar via Code",
+                     "Page View Controller",
+                     "Tab Bar Via StoryBoard",
+                     "Collectionview Inside TableView",
+                     "Details Add In TableView"]
     
     lazy var subViewControllers: [UIViewController] = { return [
         
@@ -27,7 +33,9 @@ class mainViewControllerWithTable: UIViewController {
         
         UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "TabBarViaStoryBoard") as! TabBarViaStoryBoard,
         
-        UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "CVInsideTVviewController") as! CVInsideTVviewController ]
+        UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "CVInsideTVviewController") as! CVInsideTVviewController,
+        
+        UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "detailsDisplayViewController") as! detailsDisplayViewController ]
 
     }()
 
@@ -39,9 +47,6 @@ class mainViewControllerWithTable: UIViewController {
         let nib = UINib(nibName: "TVCellForMainTable", bundle: nil)
         mainTableView.register(nib, forCellReuseIdentifier: "CellForMainTable")
     }
-    
-
-    
 }
 
 

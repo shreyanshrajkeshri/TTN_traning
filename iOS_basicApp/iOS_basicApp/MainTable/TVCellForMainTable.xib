@@ -16,16 +16,16 @@
                 <rect key="frame" x="0.0" y="0.0" width="320" height="100"/>
                 <autoresizingMask key="autoresizingMask"/>
                 <subviews>
-                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ggg-Ub-VBK">
-                        <rect key="frame" x="124.5" y="32" width="71" height="36"/>
-                        <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ggg-Ub-VBK">
+                        <rect key="frame" x="130.5" y="35" width="59.5" height="30"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="25"/>
                         <nil key="textColor"/>
                         <nil key="highlightedColor"/>
                     </label>
                 </subviews>
                 <constraints>
-                    <constraint firstItem="Ggg-Ub-VBK" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="7kY-9j-2ZQ"/>
-                    <constraint firstItem="Ggg-Ub-VBK" firstAttribute="centerX" secondItem="H2p-sc-9uM" secondAttribute="centerX" id="ykJ-MW-S9p"/>
+                    <constraint firstItem="Ggg-Ub-VBK" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="78y-Ab-zh8"/>
+                    <constraint firstItem="Ggg-Ub-VBK" firstAttribute="centerX" secondItem="H2p-sc-9uM" secondAttribute="centerX" id="BVg-Rg-mtU"/>
                 </constraints>
             </tableViewCellContentView>
             <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>

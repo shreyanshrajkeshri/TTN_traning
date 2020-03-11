@@ -71,6 +71,8 @@ UINavigationControllerDelegate{
     }
 
 
+    //MARK: Upload Photo Action
+    
     @IBAction func uploadPhotoAction(_ sender: UIButton) {
         
         let actionSheet = UIAlertController(title: nil, message: nil, preferredStyle: .actionSheet)
@@ -111,6 +113,7 @@ UINavigationControllerDelegate{
                
     }
     
+    //MARK: Camera Action
     
     func camera() {
         if UIImagePickerController.isSourceTypeAvailable(.camera){
@@ -120,7 +123,8 @@ UINavigationControllerDelegate{
             self.present(myPickerController, animated: true, completion: nil)
         }
     }
-    
+    //MARK: Gallery Action
+
     func Gallery() {
         if UIImagePickerController.isSourceTypeAvailable(.photoLibrary){
             let myPickerController = UIImagePickerController()
@@ -135,6 +139,8 @@ UINavigationControllerDelegate{
         self.dismiss(animated: true, completion: nil)
     }
     
+    //MARK: Image Picker Controller Action
+
     func imagePickerController(_ picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [UIImagePickerController.InfoKey : Any]) {
         
         picker.dismiss(animated: true)
