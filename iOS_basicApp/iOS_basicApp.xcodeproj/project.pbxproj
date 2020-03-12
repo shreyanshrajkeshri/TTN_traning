@@ -11,6 +11,7 @@
 		E1051E6C240FB9F8005D47F0 /* oneViewControllerForPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1051E6B240FB9F8005D47F0 /* oneViewControllerForPage.swift */; };
 		E1051E6E240FBA0F005D47F0 /* twoViewControllerForPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1051E6D240FBA0F005D47F0 /* twoViewControllerForPage.swift */; };
 		E1051E70240FBA23005D47F0 /* threeViewControllerForPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1051E6F240FBA23005D47F0 /* threeViewControllerForPage.swift */; };
+		E13A19212418F68A00CB31DB /* layoutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E13A19202418F68A00CB31DB /* layoutViewController.swift */; };
 		E149FA19240E0FC70044A5CF /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E149FA18240E0FC70044A5CF /* WelcomeViewController.swift */; };
 		E149FA1B240E0FD80044A5CF /* SegmentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E149FA1A240E0FD80044A5CF /* SegmentViewController.swift */; };
 		E149FA1D240E13630044A5CF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E149FA1C240E13630044A5CF /* ViewController.swift */; };
@@ -39,6 +40,9 @@
 		E1875EEF24160C1E007A9A6C /* TVCellForMainTable.xib in Resources */ = {isa = PBXBuildFile; fileRef = E1875EED24160C1E007A9A6C /* TVCellForMainTable.xib */; };
 		E1875EF3241615D1007A9A6C /* TabBarViaStoryBoard.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1875EF2241615D1007A9A6C /* TabBarViaStoryBoard.swift */; };
 		E1875EFE24161FB3007A9A6C /* mainViewControllerWithTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1875EFD24161FB3007A9A6C /* mainViewControllerWithTable.swift */; };
+		E1D9463D2419F09400B3D8DE /* layout2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1D9463C2419F09400B3D8DE /* layout2ViewController.swift */; };
+		E1D946B7241A302400B3D8DE /* layout3ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1D946B6241A302400B3D8DE /* layout3ViewController.swift */; };
+		E1D946BA241A42A700B3D8DE /* CalculaterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1D946B9241A42A700B3D8DE /* CalculaterViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +67,7 @@
 		E1051E6B240FB9F8005D47F0 /* oneViewControllerForPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = oneViewControllerForPage.swift; sourceTree = "<group>"; };
 		E1051E6D240FBA0F005D47F0 /* twoViewControllerForPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = twoViewControllerForPage.swift; sourceTree = "<group>"; };
 		E1051E6F240FBA23005D47F0 /* threeViewControllerForPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = threeViewControllerForPage.swift; sourceTree = "<group>"; };
+		E13A19202418F68A00CB31DB /* layoutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = layoutViewController.swift; sourceTree = "<group>"; };
 		E149FA18240E0FC70044A5CF /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
 		E149FA1A240E0FD80044A5CF /* SegmentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SegmentViewController.swift; sourceTree = "<group>"; };
 		E149FA1C240E13630044A5CF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -97,6 +102,9 @@
 		E1875EED24160C1E007A9A6C /* TVCellForMainTable.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TVCellForMainTable.xib; sourceTree = "<group>"; };
 		E1875EF2241615D1007A9A6C /* TabBarViaStoryBoard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViaStoryBoard.swift; sourceTree = "<group>"; };
 		E1875EFD24161FB3007A9A6C /* mainViewControllerWithTable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = mainViewControllerWithTable.swift; sourceTree = "<group>"; };
+		E1D9463C2419F09400B3D8DE /* layout2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = layout2ViewController.swift; sourceTree = "<group>"; };
+		E1D946B6241A302400B3D8DE /* layout3ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = layout3ViewController.swift; sourceTree = "<group>"; };
+		E1D946B9241A42A700B3D8DE /* CalculaterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculaterViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -224,6 +232,7 @@
 				E1875EF424161704007A9A6C /* MainTable */,
 				E15D21AF241655E50081709A /* Collection InSide TableView */,
 				E13A191F241896C300CB31DB /* Details Add In tableView */,
+				E1D946B8241A30B100B3D8DE /* Auto Layout */,
 			);
 			path = iOS_basicApp;
 			sourceTree = "<group>";
@@ -254,6 +263,17 @@
 				E1875EED24160C1E007A9A6C /* TVCellForMainTable.xib */,
 			);
 			path = MainTable;
+			sourceTree = "<group>";
+		};
+		E1D946B8241A30B100B3D8DE /* Auto Layout */ = {
+			isa = PBXGroup;
+			children = (
+				E13A19202418F68A00CB31DB /* layoutViewController.swift */,
+				E1D9463C2419F09400B3D8DE /* layout2ViewController.swift */,
+				E1D946B6241A302400B3D8DE /* layout3ViewController.swift */,
+				E1D946B9241A42A700B3D8DE /* CalculaterViewController.swift */,
+			);
+			path = "Auto Layout";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -393,12 +413,14 @@
 				E15A5572240E43AB0039AD71 /* FifthViewController.swift in Sources */,
 				E15A557D240EB72D0039AD71 /* TabOneViewController.swift in Sources */,
 				E149FA1D240E13630044A5CF /* ViewController.swift in Sources */,
+				E1D9463D2419F09400B3D8DE /* layout2ViewController.swift in Sources */,
 				E149FA19240E0FC70044A5CF /* WelcomeViewController.swift in Sources */,
 				E15D21B124165C2B0081709A /* detailsViewController.swift in Sources */,
 				E149FA1B240E0FD80044A5CF /* SegmentViewController.swift in Sources */,
 				E15A5570240E439E0039AD71 /* FourthViewController.swift in Sources */,
 				E1051E6E240FBA0F005D47F0 /* twoViewControllerForPage.swift in Sources */,
 				E15A556A240E43810039AD71 /* FirstViewController.swift in Sources */,
+				E1D946BA241A42A700B3D8DE /* CalculaterViewController.swift in Sources */,
 				E1051E6C240FB9F8005D47F0 /* oneViewControllerForPage.swift in Sources */,
 				E15A557B240EB6D30039AD71 /* MainTabViewController.swift in Sources */,
 				E15A557F240EB73C0039AD71 /* TabTwoViewController.swift in Sources */,
@@ -410,7 +432,9 @@
 				E1051E6A240FB47B005D47F0 /* UIPageMainViewController.swift in Sources */,
 				E17F94A52416292000B086E2 /* CVInsideTVviewController.swift in Sources */,
 				E17F94A724162AF200B086E2 /* TableViewCell.swift in Sources */,
+				E1D946B7241A302400B3D8DE /* layout3ViewController.swift in Sources */,
 				E1875EFE24161FB3007A9A6C /* mainViewControllerWithTable.swift in Sources */,
+				E13A19212418F68A00CB31DB /* layoutViewController.swift in Sources */,
 				E18592DC240D736A008C42D3 /* SceneDelegate.swift in Sources */,
 				E1051E70240FBA23005D47F0 /* threeViewControllerForPage.swift in Sources */,
 				E1875EEE24160C1E007A9A6C /* TVCellForMainTable.swift in Sources */,

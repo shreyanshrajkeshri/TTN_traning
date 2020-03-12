@@ -18,7 +18,11 @@ class mainViewControllerWithTable: UIViewController {
                      "Page View Controller",
                      "Tab Bar Via StoryBoard",
                      "Collectionview Inside TableView",
-                     "Details Add In TableView"]
+                     "Details Add In TableView",
+                     "Layout",
+                     "Layout2",
+                     "Layout3",
+                     "Calculater"]
     
     lazy var subViewControllers: [UIViewController] = { return [
         
@@ -35,7 +39,15 @@ class mainViewControllerWithTable: UIViewController {
         
         UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "CVInsideTVviewController") as! CVInsideTVviewController,
         
-        UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "detailsDisplayViewController") as! detailsDisplayViewController ]
+        UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "detailsDisplayViewController") as! detailsDisplayViewController,
+        
+        UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "layoutViewController") as! layoutViewController,
+        
+        UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "layout2ViewController") as! layout2ViewController,
+        
+        UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "layout3ViewController") as! layout3ViewController,
+        
+        UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "CalculaterViewController") as! CalculaterViewController  ]
 
     }()
 
@@ -43,6 +55,8 @@ class mainViewControllerWithTable: UIViewController {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+        
+        self.title = "Assignment Topic"
         
         let nib = UINib(nibName: "TVCellForMainTable", bundle: nil)
         mainTableView.register(nib, forCellReuseIdentifier: "CellForMainTable")
