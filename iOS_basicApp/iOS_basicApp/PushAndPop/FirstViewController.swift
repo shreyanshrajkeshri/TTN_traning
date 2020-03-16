@@ -20,7 +20,8 @@ class FirstViewController: UIViewController {
         self.title = "First View"
         
         //adding button on top
-        self.navigationItem.rightBarButtonItem = UIBarButtonItem(title: "Next", style: .plain, target: self, action: #selector(self.pushToSecAction(_:)) )
+        
+        self.navigationItem.rightBarButtonItem = UIBarButtonItem(title: "Next", style: .plain, target: self, action: #selector(self.pushToSecAction(_:)))
 
     }
     

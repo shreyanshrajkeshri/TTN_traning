@@ -20,9 +20,10 @@ class mainViewControllerWithTable: UIViewController {
                      "Collectionview Inside TableView",
                      "Details Add In TableView",
                      "Layout",
-                     "Layout2",
-                     "Layout3",
-                     "Calculater"]
+                     "Scroll View",
+                     "Circular ImageView",
+                     "Calculator",
+                     "Calculator Via StackView" ]
     
     lazy var subViewControllers: [UIViewController] = { return [
         
@@ -43,11 +44,13 @@ class mainViewControllerWithTable: UIViewController {
         
         UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "layoutViewController") as! layoutViewController,
         
-        UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "layout2ViewController") as! layout2ViewController,
+        UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "ScrollViewController") as! ScrollViewController,
         
-        UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "layout3ViewController") as! layout3ViewController,
+        UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "circularImageViewController") as! circularImageViewController,        
+                
+        UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "calculatorViewController") as! calculatorViewController,
         
-        UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "CalculaterViewController") as! CalculaterViewController  ]
+        UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "calculatorViaStackViewController") as! calculatorViaStackViewController ]
 
     }()
 
