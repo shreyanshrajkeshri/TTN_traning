@@ -1,5 +1,5 @@
 //
-//  threeViewControllerForPage.swift
+//  ThreeViewControllerForPage.swift
 //  iOS_basicApp
 //
 //  Created by Shreyansh Raj on 04/03/20.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class threeViewControllerForPage: UIViewController {
+class ThreeViewControllerForPage: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()

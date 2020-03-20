@@ -1,5 +1,5 @@
 //
-//  CalculatorViaStackViewController.swift
+//  CircularImageViewController.swift
 //  iOS_basicApp
 //
 //  Created by Shreyansh Raj on 16/03/20.
@@ -8,12 +8,16 @@
 
 import UIKit
 
-class calculatorViaStackViewController: UIViewController {
+class CircularImageViewController: UIViewController {
 
+    @IBOutlet weak var imageView: UIImageView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+        
+        imageView.layer.cornerRadius = imageView.frame.size.height/2
     }
     
 

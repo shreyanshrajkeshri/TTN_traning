@@ -12,9 +12,9 @@ class UIPageMainViewController: UIPageViewController, UIPageViewControllerDataSo
     
     lazy var subViewControllers: [UIViewController] = {
         return[
-            UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "oneViewControllerForPage") as! oneViewControllerForPage,
-            UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "twoViewControllerForPage") as! twoViewControllerForPage,
-            UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "threeViewControllerForPage") as! threeViewControllerForPage
+            UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "OneViewControllerForPage") as! OneViewControllerForPage,
+            UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "TwoViewControllerForPage") as! TwoViewControllerForPage,
+            UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "ThreeViewControllerForPage") as! ThreeViewControllerForPage
             
         
         ] }()

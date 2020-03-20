@@ -1,5 +1,5 @@
 //
-//  detailsViewController.swift
+//  DetailsViewController.swift
 //  iOS_basicApp
 //
 //  Created by Shreyansh Raj on 09/03/20.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class detailsViewController: UIViewController {
+class DetailsViewController: UIViewController {
 
     @IBOutlet weak var imageView: UIImageView!
     @IBOutlet weak var nameTextField: UITextField!
@@ -38,14 +38,14 @@ class detailsViewController: UIViewController {
     
     @IBAction func submitAction(_ sender: UIButton) {
         
-        let info: detailsDisplayViewController.Info = detailsDisplayViewController.Info(
+        let info: DetailsDisplayViewController.Info = DetailsDisplayViewController.Info(
             name: nameTextField.text ?? "Name",
             address: addressTextField.text ?? "Address",
             age: Int(ageTextField.text ?? "23") ?? 12,
             details: detailsTextField.text ?? "Details" )
         
         
-        detailsDisplayViewController.infoArray.append(info)
+        DetailsDisplayViewController.infoArray.append(info)
         
         self.dismiss(animated: true, completion: nil)
     }
@@ -80,7 +80,7 @@ class detailsViewController: UIViewController {
 
 //we need to use extension both Delegate because          "myPickerController.delegate = self"
 
-extension detailsViewController: UIImagePickerControllerDelegate, UINavigationControllerDelegate {
+extension DetailsViewController: UIImagePickerControllerDelegate, UINavigationControllerDelegate {
     
     //MARK: Camera Action
     
@@ -124,7 +124,7 @@ extension detailsViewController: UIImagePickerControllerDelegate, UINavigationCo
 
 //MARK: textField Delegate Extension
 
-extension detailsViewController: UITextFieldDelegate {
+extension DetailsViewController: UITextFieldDelegate {
     
     func textFieldShouldReturn(_ textField: UITextField) -> Bool {
         

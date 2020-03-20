@@ -8,10 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		E1051E6A240FB47B005D47F0 /* UIPageMainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1051E69240FB47B005D47F0 /* UIPageMainViewController.swift */; };
-		E1051E6C240FB9F8005D47F0 /* oneViewControllerForPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1051E6B240FB9F8005D47F0 /* oneViewControllerForPage.swift */; };
-		E1051E6E240FBA0F005D47F0 /* twoViewControllerForPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1051E6D240FBA0F005D47F0 /* twoViewControllerForPage.swift */; };
-		E1051E70240FBA23005D47F0 /* threeViewControllerForPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1051E6F240FBA23005D47F0 /* threeViewControllerForPage.swift */; };
-		E13A19212418F68A00CB31DB /* layoutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E13A19202418F68A00CB31DB /* layoutViewController.swift */; };
+		E1051E6C240FB9F8005D47F0 /* OneViewControllerForPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1051E6B240FB9F8005D47F0 /* OneViewControllerForPage.swift */; };
+		E1051E6E240FBA0F005D47F0 /* TwoViewControllerForPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1051E6D240FBA0F005D47F0 /* TwoViewControllerForPage.swift */; };
+		E1051E70240FBA23005D47F0 /* ThreeViewControllerForPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1051E6F240FBA23005D47F0 /* ThreeViewControllerForPage.swift */; };
+		E13A19212418F68A00CB31DB /* LayoutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E13A19202418F68A00CB31DB /* LayoutViewController.swift */; };
 		E149FA19240E0FC70044A5CF /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E149FA18240E0FC70044A5CF /* WelcomeViewController.swift */; };
 		E149FA1B240E0FD80044A5CF /* SegmentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E149FA1A240E0FD80044A5CF /* SegmentViewController.swift */; };
 		E149FA1D240E13630044A5CF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E149FA1C240E13630044A5CF /* ViewController.swift */; };
@@ -23,12 +23,14 @@
 		E15A557B240EB6D30039AD71 /* MainTabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E15A557A240EB6D30039AD71 /* MainTabViewController.swift */; };
 		E15A557D240EB72D0039AD71 /* TabOneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E15A557C240EB72D0039AD71 /* TabOneViewController.swift */; };
 		E15A557F240EB73C0039AD71 /* TabTwoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E15A557E240EB73C0039AD71 /* TabTwoViewController.swift */; };
-		E15D21B124165C2B0081709A /* detailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E15D21B024165C2B0081709A /* detailsViewController.swift */; };
-		E15D21B5241660580081709A /* detailsDisplayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E15D21B4241660580081709A /* detailsDisplayViewController.swift */; };
-		E15D21B8241660D30081709A /* detailsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E15D21B6241660D30081709A /* detailsTableViewCell.swift */; };
-		E15D21B9241660D30081709A /* detailsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E15D21B7241660D30081709A /* detailsTableViewCell.xib */; };
-		E16D2A3C241F851C0054BF89 /* calculatorViaStackViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E16D2A3B241F851C0054BF89 /* calculatorViaStackViewController.swift */; };
-		E16D2A3E241F89270054BF89 /* circularImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E16D2A3D241F89270054BF89 /* circularImageViewController.swift */; };
+		E15D21B124165C2B0081709A /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E15D21B024165C2B0081709A /* DetailsViewController.swift */; };
+		E15D21B5241660580081709A /* DetailsDisplayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E15D21B4241660580081709A /* DetailsDisplayViewController.swift */; };
+		E15D21B8241660D30081709A /* DetailsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E15D21B6241660D30081709A /* DetailsTableViewCell.swift */; };
+		E15D21B9241660D30081709A /* DetailsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E15D21B7241660D30081709A /* DetailsTableViewCell.xib */; };
+		E16D2A3C241F851C0054BF89 /* CalculatorViaStackViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E16D2A3B241F851C0054BF89 /* CalculatorViaStackViewController.swift */; };
+		E16D2A3E241F89270054BF89 /* CircularImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E16D2A3D241F89270054BF89 /* CircularImageViewController.swift */; };
+		E16D2A40241F95F80054BF89 /* StackViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E16D2A3F241F95F80054BF89 /* StackViewController.swift */; };
+		E16D2A42241FF4C00054BF89 /* AutoLayoutViaCodeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E16D2A41241FF4C00054BF89 /* AutoLayoutViaCodeViewController.swift */; };
 		E17F94A52416292000B086E2 /* CVInsideTVviewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E17F94A42416292000B086E2 /* CVInsideTVviewController.swift */; };
 		E17F94A724162AF200B086E2 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E17F94A624162AF200B086E2 /* TableViewCell.swift */; };
 		E18592DA240D736A008C42D3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E18592D9240D736A008C42D3 /* AppDelegate.swift */; };
@@ -41,9 +43,9 @@
 		E1875EEE24160C1E007A9A6C /* TVCellForMainTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1875EEC24160C1E007A9A6C /* TVCellForMainTable.swift */; };
 		E1875EEF24160C1E007A9A6C /* TVCellForMainTable.xib in Resources */ = {isa = PBXBuildFile; fileRef = E1875EED24160C1E007A9A6C /* TVCellForMainTable.xib */; };
 		E1875EF3241615D1007A9A6C /* TabBarViaStoryBoard.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1875EF2241615D1007A9A6C /* TabBarViaStoryBoard.swift */; };
-		E1875EFE24161FB3007A9A6C /* mainViewControllerWithTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1875EFD24161FB3007A9A6C /* mainViewControllerWithTable.swift */; };
+		E1875EFE24161FB3007A9A6C /* MainViewControllerWithTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1875EFD24161FB3007A9A6C /* MainViewControllerWithTable.swift */; };
 		E1D9463D2419F09400B3D8DE /* ScrollViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1D9463C2419F09400B3D8DE /* ScrollViewController.swift */; };
-		E1D946BA241A42A700B3D8DE /* calculatorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1D946B9241A42A700B3D8DE /* calculatorViewController.swift */; };
+		E1D946BA241A42A700B3D8DE /* CalculatorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1D946B9241A42A700B3D8DE /* CalculatorViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,10 +67,10 @@
 
 /* Begin PBXFileReference section */
 		E1051E69240FB47B005D47F0 /* UIPageMainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIPageMainViewController.swift; sourceTree = "<group>"; };
-		E1051E6B240FB9F8005D47F0 /* oneViewControllerForPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = oneViewControllerForPage.swift; sourceTree = "<group>"; };
-		E1051E6D240FBA0F005D47F0 /* twoViewControllerForPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = twoViewControllerForPage.swift; sourceTree = "<group>"; };
-		E1051E6F240FBA23005D47F0 /* threeViewControllerForPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = threeViewControllerForPage.swift; sourceTree = "<group>"; };
-		E13A19202418F68A00CB31DB /* layoutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = layoutViewController.swift; sourceTree = "<group>"; };
+		E1051E6B240FB9F8005D47F0 /* OneViewControllerForPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OneViewControllerForPage.swift; sourceTree = "<group>"; };
+		E1051E6D240FBA0F005D47F0 /* TwoViewControllerForPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwoViewControllerForPage.swift; sourceTree = "<group>"; };
+		E1051E6F240FBA23005D47F0 /* ThreeViewControllerForPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThreeViewControllerForPage.swift; sourceTree = "<group>"; };
+		E13A19202418F68A00CB31DB /* LayoutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LayoutViewController.swift; sourceTree = "<group>"; };
 		E149FA18240E0FC70044A5CF /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
 		E149FA1A240E0FD80044A5CF /* SegmentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SegmentViewController.swift; sourceTree = "<group>"; };
 		E149FA1C240E13630044A5CF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -80,12 +82,14 @@
 		E15A557A240EB6D30039AD71 /* MainTabViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabViewController.swift; sourceTree = "<group>"; };
 		E15A557C240EB72D0039AD71 /* TabOneViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabOneViewController.swift; sourceTree = "<group>"; };
 		E15A557E240EB73C0039AD71 /* TabTwoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabTwoViewController.swift; sourceTree = "<group>"; };
-		E15D21B024165C2B0081709A /* detailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = detailsViewController.swift; sourceTree = "<group>"; };
-		E15D21B4241660580081709A /* detailsDisplayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = detailsDisplayViewController.swift; sourceTree = "<group>"; };
-		E15D21B6241660D30081709A /* detailsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = detailsTableViewCell.swift; sourceTree = "<group>"; };
-		E15D21B7241660D30081709A /* detailsTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = detailsTableViewCell.xib; sourceTree = "<group>"; };
-		E16D2A3B241F851C0054BF89 /* calculatorViaStackViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = calculatorViaStackViewController.swift; sourceTree = "<group>"; };
-		E16D2A3D241F89270054BF89 /* circularImageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = circularImageViewController.swift; sourceTree = "<group>"; };
+		E15D21B024165C2B0081709A /* DetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
+		E15D21B4241660580081709A /* DetailsDisplayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsDisplayViewController.swift; sourceTree = "<group>"; };
+		E15D21B6241660D30081709A /* DetailsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsTableViewCell.swift; sourceTree = "<group>"; };
+		E15D21B7241660D30081709A /* DetailsTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DetailsTableViewCell.xib; sourceTree = "<group>"; };
+		E16D2A3B241F851C0054BF89 /* CalculatorViaStackViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorViaStackViewController.swift; sourceTree = "<group>"; };
+		E16D2A3D241F89270054BF89 /* CircularImageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircularImageViewController.swift; sourceTree = "<group>"; };
+		E16D2A3F241F95F80054BF89 /* StackViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StackViewController.swift; sourceTree = "<group>"; };
+		E16D2A41241FF4C00054BF89 /* AutoLayoutViaCodeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutoLayoutViaCodeViewController.swift; sourceTree = "<group>"; };
 		E17F94A42416292000B086E2 /* CVInsideTVviewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CVInsideTVviewController.swift; sourceTree = "<group>"; };
 		E17F94A624162AF200B086E2 /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
 		E18592D6240D736A008C42D3 /* iOS_basicApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOS_basicApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -104,9 +108,9 @@
 		E1875EEC24160C1E007A9A6C /* TVCellForMainTable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TVCellForMainTable.swift; sourceTree = "<group>"; };
 		E1875EED24160C1E007A9A6C /* TVCellForMainTable.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TVCellForMainTable.xib; sourceTree = "<group>"; };
 		E1875EF2241615D1007A9A6C /* TabBarViaStoryBoard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViaStoryBoard.swift; sourceTree = "<group>"; };
-		E1875EFD24161FB3007A9A6C /* mainViewControllerWithTable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = mainViewControllerWithTable.swift; sourceTree = "<group>"; };
+		E1875EFD24161FB3007A9A6C /* MainViewControllerWithTable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewControllerWithTable.swift; sourceTree = "<group>"; };
 		E1D9463C2419F09400B3D8DE /* ScrollViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewController.swift; sourceTree = "<group>"; };
-		E1D946B9241A42A700B3D8DE /* calculatorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = calculatorViewController.swift; sourceTree = "<group>"; };
+		E1D946B9241A42A700B3D8DE /* CalculatorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -138,9 +142,9 @@
 			isa = PBXGroup;
 			children = (
 				E1051E69240FB47B005D47F0 /* UIPageMainViewController.swift */,
-				E1051E6B240FB9F8005D47F0 /* oneViewControllerForPage.swift */,
-				E1051E6D240FBA0F005D47F0 /* twoViewControllerForPage.swift */,
-				E1051E6F240FBA23005D47F0 /* threeViewControllerForPage.swift */,
+				E1051E6B240FB9F8005D47F0 /* OneViewControllerForPage.swift */,
+				E1051E6D240FBA0F005D47F0 /* TwoViewControllerForPage.swift */,
+				E1051E6F240FBA23005D47F0 /* ThreeViewControllerForPage.swift */,
 			);
 			path = PageViewController;
 			sourceTree = "<group>";
@@ -148,10 +152,10 @@
 		E13A191F241896C300CB31DB /* Details Add In tableView */ = {
 			isa = PBXGroup;
 			children = (
-				E15D21B024165C2B0081709A /* detailsViewController.swift */,
-				E15D21B4241660580081709A /* detailsDisplayViewController.swift */,
-				E15D21B6241660D30081709A /* detailsTableViewCell.swift */,
-				E15D21B7241660D30081709A /* detailsTableViewCell.xib */,
+				E15D21B024165C2B0081709A /* DetailsViewController.swift */,
+				E15D21B4241660580081709A /* DetailsDisplayViewController.swift */,
+				E15D21B6241660D30081709A /* DetailsTableViewCell.swift */,
+				E15D21B7241660D30081709A /* DetailsTableViewCell.xib */,
 			);
 			path = "Details Add In tableView";
 			sourceTree = "<group>";
@@ -260,7 +264,7 @@
 		E1875EF424161704007A9A6C /* MainTable */ = {
 			isa = PBXGroup;
 			children = (
-				E1875EFD24161FB3007A9A6C /* mainViewControllerWithTable.swift */,
+				E1875EFD24161FB3007A9A6C /* MainViewControllerWithTable.swift */,
 				E1875EEC24160C1E007A9A6C /* TVCellForMainTable.swift */,
 				E1875EED24160C1E007A9A6C /* TVCellForMainTable.xib */,
 			);
@@ -270,11 +274,13 @@
 		E1D946B8241A30B100B3D8DE /* Auto Layout */ = {
 			isa = PBXGroup;
 			children = (
-				E13A19202418F68A00CB31DB /* layoutViewController.swift */,
+				E13A19202418F68A00CB31DB /* LayoutViewController.swift */,
 				E1D9463C2419F09400B3D8DE /* ScrollViewController.swift */,
-				E1D946B9241A42A700B3D8DE /* calculatorViewController.swift */,
-				E16D2A3B241F851C0054BF89 /* calculatorViaStackViewController.swift */,
-				E16D2A3D241F89270054BF89 /* circularImageViewController.swift */,
+				E1D946B9241A42A700B3D8DE /* CalculatorViewController.swift */,
+				E16D2A3B241F851C0054BF89 /* CalculatorViaStackViewController.swift */,
+				E16D2A3D241F89270054BF89 /* CircularImageViewController.swift */,
+				E16D2A3F241F95F80054BF89 /* StackViewController.swift */,
+				E16D2A41241FF4C00054BF89 /* AutoLayoutViaCodeViewController.swift */,
 			);
 			path = "Auto Layout";
 			sourceTree = "<group>";
@@ -386,7 +392,7 @@
 				E18592E6240D736C008C42D3 /* LaunchScreen.storyboard in Resources */,
 				E1875EEF24160C1E007A9A6C /* TVCellForMainTable.xib in Resources */,
 				E18592E3240D736C008C42D3 /* Assets.xcassets in Resources */,
-				E15D21B9241660D30081709A /* detailsTableViewCell.xib in Resources */,
+				E15D21B9241660D30081709A /* DetailsTableViewCell.xib in Resources */,
 				E18592E1240D736A008C42D3 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -412,35 +418,37 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E15D21B5241660580081709A /* detailsDisplayViewController.swift in Sources */,
+				E15D21B5241660580081709A /* DetailsDisplayViewController.swift in Sources */,
 				E15A5572240E43AB0039AD71 /* FifthViewController.swift in Sources */,
 				E15A557D240EB72D0039AD71 /* TabOneViewController.swift in Sources */,
 				E149FA1D240E13630044A5CF /* ViewController.swift in Sources */,
 				E1D9463D2419F09400B3D8DE /* ScrollViewController.swift in Sources */,
 				E149FA19240E0FC70044A5CF /* WelcomeViewController.swift in Sources */,
-				E15D21B124165C2B0081709A /* detailsViewController.swift in Sources */,
+				E15D21B124165C2B0081709A /* DetailsViewController.swift in Sources */,
 				E149FA1B240E0FD80044A5CF /* SegmentViewController.swift in Sources */,
 				E15A5570240E439E0039AD71 /* FourthViewController.swift in Sources */,
-				E1051E6E240FBA0F005D47F0 /* twoViewControllerForPage.swift in Sources */,
+				E1051E6E240FBA0F005D47F0 /* TwoViewControllerForPage.swift in Sources */,
 				E15A556A240E43810039AD71 /* FirstViewController.swift in Sources */,
-				E16D2A3E241F89270054BF89 /* circularImageViewController.swift in Sources */,
-				E1D946BA241A42A700B3D8DE /* calculatorViewController.swift in Sources */,
-				E16D2A3C241F851C0054BF89 /* calculatorViaStackViewController.swift in Sources */,
-				E1051E6C240FB9F8005D47F0 /* oneViewControllerForPage.swift in Sources */,
+				E16D2A3E241F89270054BF89 /* CircularImageViewController.swift in Sources */,
+				E1D946BA241A42A700B3D8DE /* CalculatorViewController.swift in Sources */,
+				E16D2A3C241F851C0054BF89 /* CalculatorViaStackViewController.swift in Sources */,
+				E1051E6C240FB9F8005D47F0 /* OneViewControllerForPage.swift in Sources */,
 				E15A557B240EB6D30039AD71 /* MainTabViewController.swift in Sources */,
 				E15A557F240EB73C0039AD71 /* TabTwoViewController.swift in Sources */,
+				E16D2A42241FF4C00054BF89 /* AutoLayoutViaCodeViewController.swift in Sources */,
 				E15A556C240E438A0039AD71 /* SecondViewController.swift in Sources */,
+				E16D2A40241F95F80054BF89 /* StackViewController.swift in Sources */,
 				E1875EF3241615D1007A9A6C /* TabBarViaStoryBoard.swift in Sources */,
 				E18592DA240D736A008C42D3 /* AppDelegate.swift in Sources */,
 				E15A556E240E43930039AD71 /* ThirdViewController.swift in Sources */,
-				E15D21B8241660D30081709A /* detailsTableViewCell.swift in Sources */,
+				E15D21B8241660D30081709A /* DetailsTableViewCell.swift in Sources */,
 				E1051E6A240FB47B005D47F0 /* UIPageMainViewController.swift in Sources */,
 				E17F94A52416292000B086E2 /* CVInsideTVviewController.swift in Sources */,
 				E17F94A724162AF200B086E2 /* TableViewCell.swift in Sources */,
-				E1875EFE24161FB3007A9A6C /* mainViewControllerWithTable.swift in Sources */,
-				E13A19212418F68A00CB31DB /* layoutViewController.swift in Sources */,
+				E1875EFE24161FB3007A9A6C /* MainViewControllerWithTable.swift in Sources */,
+				E13A19212418F68A00CB31DB /* LayoutViewController.swift in Sources */,
 				E18592DC240D736A008C42D3 /* SceneDelegate.swift in Sources */,
-				E1051E70240FBA23005D47F0 /* threeViewControllerForPage.swift in Sources */,
+				E1051E70240FBA23005D47F0 /* ThreeViewControllerForPage.swift in Sources */,
 				E1875EEE24160C1E007A9A6C /* TVCellForMainTable.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

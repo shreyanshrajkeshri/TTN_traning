@@ -1,5 +1,5 @@
 //
-//  mainViewControllerWithTable.swift
+//  MainViewControllerWithTable.swift
 //  iOS_basicApp
 //
 //  Created by Shreyansh Raj on 09/03/20.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class mainViewControllerWithTable: UIViewController {
+class MainViewControllerWithTable: UIViewController {
     
     @IBOutlet weak var mainTableView: UITableView!
     
@@ -23,7 +23,9 @@ class mainViewControllerWithTable: UIViewController {
                      "Scroll View",
                      "Circular ImageView",
                      "Calculator",
-                     "Calculator Via StackView" ]
+                     "Calculator Via StackView",
+                     "Stack Display",
+                     "Auto Layout via Code"]
     
     lazy var subViewControllers: [UIViewController] = { return [
         
@@ -40,17 +42,22 @@ class mainViewControllerWithTable: UIViewController {
         
         UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "CVInsideTVviewController") as! CVInsideTVviewController,
         
-        UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "detailsDisplayViewController") as! detailsDisplayViewController,
+        UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "DetailsDisplayViewController") as! DetailsDisplayViewController,
         
-        UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "layoutViewController") as! layoutViewController,
+        UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "LayoutViewController") as! LayoutViewController,
         
         UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "ScrollViewController") as! ScrollViewController,
         
-        UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "circularImageViewController") as! circularImageViewController,        
+        UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "CircularImageViewController") as! CircularImageViewController,        
                 
-        UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "calculatorViewController") as! calculatorViewController,
+        UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "CalculatorViewController") as! CalculatorViewController,
         
-        UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "calculatorViaStackViewController") as! calculatorViaStackViewController ]
+        UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "CalculatorViaStackViewController") as! CalculatorViaStackViewController,
+        
+        UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier:
+            "StackViewController") as! StackViewController,
+        
+        UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "AutoLayoutViaCodeViewController") as! AutoLayoutViaCodeViewController]
 
     }()
 
@@ -68,7 +75,7 @@ class mainViewControllerWithTable: UIViewController {
 
 
 
-extension mainViewControllerWithTable: UITableViewDataSource, UITableViewDelegate {
+extension MainViewControllerWithTable: UITableViewDataSource, UITableViewDelegate {
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         

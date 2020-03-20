@@ -477,7 +477,7 @@
         <!--Calculator Via Stack View Controller-->
         <scene sceneID="cIQ-eo-56B">
             <objects>
-                <viewController storyboardIdentifier="calculatorViaStackViewController" id="Lmu-VC-dHZ" customClass="calculatorViaStackViewController" customModule="iOS_basicApp" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="CalculatorViaStackViewController" id="Lmu-VC-dHZ" customClass="CalculatorViaStackViewController" customModule="iOS_basicApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="HRF-2U-z4Q">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -658,10 +658,92 @@
             </objects>
             <point key="canvasLocation" x="-4638" y="96"/>
         </scene>
+        <!--Stack View Controller-->
+        <scene sceneID="Sfz-2J-96X">
+            <objects>
+                <viewController storyboardIdentifier="StackViewController" id="o2n-CX-wep" customClass="StackViewController" customModule="iOS_basicApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="D9B-jg-Up4">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter No. (1,2,3,4)" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="mnl-E5-Su9">
+                                <rect key="frame" x="30" y="114" width="200" height="34"/>
+                                <accessibility key="accessibilityConfiguration">
+                                    <accessibilityTraits key="traits" keyboardKey="YES"/>
+                                </accessibility>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="200" id="qcj-HK-GdY"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" keyboardType="numberPad" returnKeyType="done"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="y74-KX-UQd">
+                                <rect key="frame" x="260" y="114" width="124" height="30"/>
+                                <color key="backgroundColor" systemColor="systemPurpleColor" red="0.68627450980000004" green="0.32156862749999998" blue="0.87058823529999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="Display">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="DisplayBtnAction:" destination="o2n-CX-wep" eventType="touchUpInside" id="nfw-7T-Wwq"/>
+                                </connections>
+                            </button>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="dWj-zc-SOs">
+                                <rect key="frame" x="80" y="298" width="250" height="250"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="250" id="eSk-uM-fqh"/>
+                                    <constraint firstAttribute="height" constant="250" id="uPa-d2-pZC"/>
+                                </constraints>
+                            </stackView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BK9-HW-FlB">
+                                <rect key="frame" x="181.66666666666666" y="188" width="51" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="dWj-zc-SOs" firstAttribute="top" secondItem="mnl-E5-Su9" secondAttribute="bottom" constant="150" id="Gfl-Wy-hH9"/>
+                            <constraint firstItem="hxL-3C-gr1" firstAttribute="trailing" secondItem="y74-KX-UQd" secondAttribute="trailing" constant="30" id="NAi-69-Ye7"/>
+                            <constraint firstItem="y74-KX-UQd" firstAttribute="top" secondItem="hxL-3C-gr1" secondAttribute="top" constant="70" id="ZeC-ak-tbo"/>
+                            <constraint firstItem="BK9-HW-FlB" firstAttribute="top" secondItem="mnl-E5-Su9" secondAttribute="bottom" constant="40" id="ZqX-7R-KDo"/>
+                            <constraint firstItem="mnl-E5-Su9" firstAttribute="leading" secondItem="hxL-3C-gr1" secondAttribute="leading" constant="30" id="fXO-M5-xyv"/>
+                            <constraint firstItem="BK9-HW-FlB" firstAttribute="centerX" secondItem="D9B-jg-Up4" secondAttribute="centerX" id="g8A-ta-s10"/>
+                            <constraint firstItem="y74-KX-UQd" firstAttribute="leading" secondItem="mnl-E5-Su9" secondAttribute="trailing" constant="30" id="hOf-ZY-ocI"/>
+                            <constraint firstItem="mnl-E5-Su9" firstAttribute="top" secondItem="hxL-3C-gr1" secondAttribute="top" constant="70" id="thm-gr-naJ"/>
+                            <constraint firstItem="dWj-zc-SOs" firstAttribute="leading" secondItem="hxL-3C-gr1" secondAttribute="leading" constant="80" id="xfr-ZE-m2G"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="hxL-3C-gr1"/>
+                    </view>
+                    <connections>
+                        <outlet property="label" destination="BK9-HW-FlB" id="jL0-10-Sdl"/>
+                        <outlet property="stackView" destination="dWj-zc-SOs" id="nXe-YZ-LeI"/>
+                        <outlet property="textField" destination="mnl-E5-Su9" id="Y84-5e-xaH"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="c4l-0i-v2g" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-4639" y="869"/>
+        </scene>
+        <!--Auto Layout Via Code View Controller-->
+        <scene sceneID="fzb-pn-NMx">
+            <objects>
+                <viewController storyboardIdentifier="AutoLayoutViaCodeViewController" id="fSg-2H-byZ" customClass="AutoLayoutViaCodeViewController" customModule="iOS_basicApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="DSu-XU-pgu">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="FIy-36-e3X"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="5XO-wN-anp" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-3714" y="869"/>
+        </scene>
         <!--Calculator View Controller-->
         <scene sceneID="nTH-ru-eWi">
             <objects>
-                <viewController storyboardIdentifier="calculatorViewController" id="axc-I1-iUz" customClass="calculatorViewController" customModule="iOS_basicApp" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="CalculatorViewController" id="axc-I1-iUz" customClass="CalculatorViewController" customModule="iOS_basicApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="CxS-hF-u6e">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -944,7 +1026,7 @@ Unicode: U+00F7, UTF-8: C3 B7</string>
         <!--Circular Image View Controller-->
         <scene sceneID="cLD-go-7k7">
             <objects>
-                <viewController storyboardIdentifier="circularImageViewController" id="4wG-mG-7EG" customClass="circularImageViewController" customModule="iOS_basicApp" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="CircularImageViewController" id="4wG-mG-7EG" customClass="CircularImageViewController" customModule="iOS_basicApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="0ZP-fx-agN">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -1103,7 +1185,7 @@ Unicode: U+00F7, UTF-8: C3 B7</string>
         <!--Layout View Controller-->
         <scene sceneID="i47-yO-yrd">
             <objects>
-                <viewController storyboardIdentifier="layoutViewController" id="1Oe-n8-hEa" customClass="layoutViewController" customModule="iOS_basicApp" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="LayoutViewController" id="1Oe-n8-hEa" customClass="LayoutViewController" customModule="iOS_basicApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="7ch-ba-o8J">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -1153,7 +1235,7 @@ Unicode: U+00F7, UTF-8: C3 B7</string>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="cwb-9j-Jde" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1149" y="98"/>
+            <point key="canvasLocation" x="-2852" y="869"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="2S1-hM-sMd">
@@ -1176,7 +1258,7 @@ Unicode: U+00F7, UTF-8: C3 B7</string>
         <!--Main View Controller With Table-->
         <scene sceneID="EyI-15-x0C">
             <objects>
-                <viewController storyboardIdentifier="mainViewControllerWithTable" id="0YY-PW-DqT" customClass="mainViewControllerWithTable" customModule="iOS_basicApp" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="mainViewControllerWithTable" id="0YY-PW-DqT" customClass="MainViewControllerWithTable" customModule="iOS_basicApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="X8d-is-2mR">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -1211,7 +1293,7 @@ Unicode: U+00F7, UTF-8: C3 B7</string>
         <!--Details View Controller-->
         <scene sceneID="fIe-Yh-gZD">
             <objects>
-                <viewController storyboardIdentifier="detailsViewController" id="8rT-Fy-ZOF" customClass="detailsViewController" customModule="iOS_basicApp" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="detailsViewController" id="8rT-Fy-ZOF" customClass="DetailsViewController" customModule="iOS_basicApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="IX0-jm-lBE">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -1401,7 +1483,7 @@ Unicode: U+00F7, UTF-8: C3 B7</string>
         <!--Details Display View Controller-->
         <scene sceneID="XxG-Xc-kgG">
             <objects>
-                <viewController storyboardIdentifier="detailsDisplayViewController" id="0Bn-gq-d9H" customClass="detailsDisplayViewController" customModule="iOS_basicApp" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="DetailsDisplayViewController" id="0Bn-gq-d9H" customClass="DetailsDisplayViewController" customModule="iOS_basicApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="fEL-48-W09">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -1545,7 +1627,7 @@ Unicode: U+00F7, UTF-8: C3 B7</string>
         <!--One View Controller For Page-->
         <scene sceneID="8UD-kQ-kme">
             <objects>
-                <viewController storyboardIdentifier="oneViewControllerForPage" id="Bh3-6k-vxK" customClass="oneViewControllerForPage" customModule="iOS_basicApp" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="OneViewControllerForPage" id="Bh3-6k-vxK" customClass="OneViewControllerForPage" customModule="iOS_basicApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Uje-qo-5c4">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -1572,7 +1654,7 @@ Unicode: U+00F7, UTF-8: C3 B7</string>
         <!--Two View Controller For Page-->
         <scene sceneID="qNe-3a-PzQ">
             <objects>
-                <viewController storyboardIdentifier="twoViewControllerForPage" id="IcQ-yd-1aO" customClass="twoViewControllerForPage" customModule="iOS_basicApp" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="TwoViewControllerForPage" id="IcQ-yd-1aO" customClass="TwoViewControllerForPage" customModule="iOS_basicApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="TbD-y5-G7r">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -1587,7 +1669,7 @@ Unicode: U+00F7, UTF-8: C3 B7</string>
         <!--Three View Controller For Page-->
         <scene sceneID="T59-vV-trX">
             <objects>
-                <viewController storyboardIdentifier="threeViewControllerForPage" id="rJg-tw-OTw" customClass="threeViewControllerForPage" customModule="iOS_basicApp" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="ThreeViewControllerForPage" id="rJg-tw-OTw" customClass="ThreeViewControllerForPage" customModule="iOS_basicApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="eFt-tO-PaB">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>

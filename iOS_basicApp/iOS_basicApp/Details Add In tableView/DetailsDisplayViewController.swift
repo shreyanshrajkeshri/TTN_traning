@@ -1,5 +1,5 @@
 //
-//  detailsDisplayViewController.swift
+//  DetailsDisplayViewController.swift
 //  iOS_basicApp
 //
 //  Created by Shreyansh Raj on 09/03/20.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class detailsDisplayViewController: UIViewController {
+class DetailsDisplayViewController: UIViewController {
     
     
     @IBOutlet weak var tableView: UITableView!
@@ -37,7 +37,7 @@ class detailsDisplayViewController: UIViewController {
         
 
         
-        let nib = UINib(nibName: "detailsTableViewCell", bundle: nil)
+        let nib = UINib(nibName: "DetailsTableViewCell", bundle: nil)
         tableView.register(nib, forCellReuseIdentifier: "detailsCell")
     }
     
@@ -46,10 +46,10 @@ class detailsDisplayViewController: UIViewController {
     @objc func addBtnAction(_ sender: UIButton) {
         
         print("add")
-        tableView.reloadData()
+        //tableView.reloadData()
         
         let storyBoard = UIStoryboard.init(name: "Main", bundle: nil)
-        let vc = storyBoard.instantiateViewController(withIdentifier: "detailsViewController")
+        let vc = storyBoard.instantiateViewController(withIdentifier: "DetailsViewController")
         
         self.navigationController?.present(vc, animated: true, completion: nil)
 
@@ -57,21 +57,21 @@ class detailsDisplayViewController: UIViewController {
     
 }
 
-extension detailsDisplayViewController: UITableViewDelegate, UITableViewDataSource {
+extension DetailsDisplayViewController: UITableViewDelegate, UITableViewDataSource {
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         
-        return detailsDisplayViewController.infoArray.count
+        return DetailsDisplayViewController.infoArray.count
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         
-        let cell = tableView.dequeueReusableCell(withIdentifier: "detailsCell") as! detailsTableViewCell
+        let cell = tableView.dequeueReusableCell(withIdentifier: "detailsCell") as! DetailsTableViewCell
         
-        cell.nameLabel.text = detailsDisplayViewController.infoArray[indexPath.row].name
-        cell.addressLabel.text = detailsDisplayViewController.infoArray[indexPath.row].address
-        cell.ageLabel.text = String(detailsDisplayViewController.infoArray[indexPath.row].age)
-        cell.detailsLabel.text = detailsDisplayViewController.infoArray[indexPath.row].details
+        cell.nameLabel.text = DetailsDisplayViewController.infoArray[indexPath.row].name
+        cell.addressLabel.text = DetailsDisplayViewController.infoArray[indexPath.row].address
+        cell.ageLabel.text = String(DetailsDisplayViewController.infoArray[indexPath.row].age)
+        cell.detailsLabel.text = DetailsDisplayViewController.infoArray[indexPath.row].details
         
         return cell
     }

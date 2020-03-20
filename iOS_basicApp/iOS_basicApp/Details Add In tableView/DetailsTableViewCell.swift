@@ -1,5 +1,5 @@
 //
-//  detailsTableViewCell.swift
+//  DetailsTableViewCell.swift
 //  iOS_basicApp
 //
 //  Created by Shreyansh Raj on 09/03/20.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class detailsTableViewCell: UITableViewCell {
+class DetailsTableViewCell: UITableViewCell {
 
     @IBOutlet weak var nameLabel: UILabel!
     @IBOutlet weak var addressLabel: UILabel!
