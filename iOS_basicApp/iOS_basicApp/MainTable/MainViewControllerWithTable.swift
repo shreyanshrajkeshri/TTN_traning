@@ -25,7 +25,8 @@ class MainViewControllerWithTable: UIViewController {
                      "Calculator",
                      "Calculator Via StackView",
                      "Stack Display",
-                     "Auto Layout via Code"]
+                     "Auto Layout via Code",
+                     "Countries Get API"]
     
     lazy var subViewControllers: [UIViewController] = { return [
         
@@ -57,7 +58,9 @@ class MainViewControllerWithTable: UIViewController {
         UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier:
             "StackViewController") as! StackViewController,
         
-        UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "AutoLayoutViaCodeViewController") as! AutoLayoutViaCodeViewController]
+        UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "AutoLayoutViaCodeViewController") as! AutoLayoutViaCodeViewController,
+        
+        UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "CountriesAPIViewController") as! CountriesAPIViewController]
 
     }()
 
