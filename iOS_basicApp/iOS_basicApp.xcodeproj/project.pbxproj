@@ -44,6 +44,8 @@
 		E1875EEF24160C1E007A9A6C /* TVCellForMainTable.xib in Resources */ = {isa = PBXBuildFile; fileRef = E1875EED24160C1E007A9A6C /* TVCellForMainTable.xib */; };
 		E1875EF3241615D1007A9A6C /* TabBarViaStoryBoard.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1875EF2241615D1007A9A6C /* TabBarViaStoryBoard.swift */; };
 		E1875EFE24161FB3007A9A6C /* MainViewControllerWithTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1875EFD24161FB3007A9A6C /* MainViewControllerWithTable.swift */; };
+		E19DE26624448FA300F6E740 /* FirstProtocolViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E19DE26524448FA300F6E740 /* FirstProtocolViewController.swift */; };
+		E19DE26824448FB300F6E740 /* SecondProtocolViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E19DE26724448FB300F6E740 /* SecondProtocolViewController.swift */; };
 		E1B6E141243DF357001A50F2 /* CountriesDetailsShowViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1B6E140243DF357001A50F2 /* CountriesDetailsShowViewController.swift */; };
 		E1B6E144243DF47A001A50F2 /* CountriesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1B6E142243DF47A001A50F2 /* CountriesTableViewCell.swift */; };
 		E1B6E145243DF47A001A50F2 /* CountriesTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E1B6E143243DF47A001A50F2 /* CountriesTableViewCell.xib */; };
@@ -113,6 +115,8 @@
 		E1875EED24160C1E007A9A6C /* TVCellForMainTable.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TVCellForMainTable.xib; sourceTree = "<group>"; };
 		E1875EF2241615D1007A9A6C /* TabBarViaStoryBoard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViaStoryBoard.swift; sourceTree = "<group>"; };
 		E1875EFD24161FB3007A9A6C /* MainViewControllerWithTable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewControllerWithTable.swift; sourceTree = "<group>"; };
+		E19DE26524448FA300F6E740 /* FirstProtocolViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstProtocolViewController.swift; sourceTree = "<group>"; };
+		E19DE26724448FB300F6E740 /* SecondProtocolViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondProtocolViewController.swift; sourceTree = "<group>"; };
 		E1B6E140243DF357001A50F2 /* CountriesDetailsShowViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountriesDetailsShowViewController.swift; sourceTree = "<group>"; };
 		E1B6E142243DF47A001A50F2 /* CountriesTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountriesTableViewCell.swift; sourceTree = "<group>"; };
 		E1B6E143243DF47A001A50F2 /* CountriesTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CountriesTableViewCell.xib; sourceTree = "<group>"; };
@@ -248,6 +252,7 @@
 				E13A191F241896C300CB31DB /* Details Add In tableView */,
 				E1D946B8241A30B100B3D8DE /* Auto Layout */,
 				E1B6E13F243DF327001A50F2 /* Countries API */,
+				E19DE26424448F0C00F6E740 /* Pass Data Via Protocol */,
 			);
 			path = iOS_basicApp;
 			sourceTree = "<group>";
@@ -278,6 +283,15 @@
 				E1875EED24160C1E007A9A6C /* TVCellForMainTable.xib */,
 			);
 			path = MainTable;
+			sourceTree = "<group>";
+		};
+		E19DE26424448F0C00F6E740 /* Pass Data Via Protocol */ = {
+			isa = PBXGroup;
+			children = (
+				E19DE26524448FA300F6E740 /* FirstProtocolViewController.swift */,
+				E19DE26724448FB300F6E740 /* SecondProtocolViewController.swift */,
+			);
+			path = "Pass Data Via Protocol";
 			sourceTree = "<group>";
 		};
 		E1B6E13F243DF327001A50F2 /* Countries API */ = {
@@ -442,6 +456,7 @@
 				E15D21B5241660580081709A /* DetailsDisplayViewController.swift in Sources */,
 				E15A5572240E43AB0039AD71 /* FifthViewController.swift in Sources */,
 				E15A557D240EB72D0039AD71 /* TabOneViewController.swift in Sources */,
+				E19DE26824448FB300F6E740 /* SecondProtocolViewController.swift in Sources */,
 				E149FA1D240E13630044A5CF /* ViewController.swift in Sources */,
 				E1B6E149243DF65D001A50F2 /* CountriesAPIViewController.swift in Sources */,
 				E1D9463D2419F09400B3D8DE /* ScrollViewController.swift in Sources */,
@@ -450,6 +465,7 @@
 				E149FA1B240E0FD80044A5CF /* SegmentViewController.swift in Sources */,
 				E15A5570240E439E0039AD71 /* FourthViewController.swift in Sources */,
 				E1051E6E240FBA0F005D47F0 /* TwoViewControllerForPage.swift in Sources */,
+				E19DE26624448FA300F6E740 /* FirstProtocolViewController.swift in Sources */,
 				E15A556A240E43810039AD71 /* FirstViewController.swift in Sources */,
 				E16D2A3E241F89270054BF89 /* CircularImageViewController.swift in Sources */,
 				E1D946BA241A42A700B3D8DE /* CalculatorViewController.swift in Sources */,

@@ -26,7 +26,8 @@ class MainViewControllerWithTable: UIViewController {
                      "Calculator Via StackView",
                      "Stack Display",
                      "Auto Layout via Code",
-                     "Countries Get API"]
+                     "Countries Get API",
+                     "Pass Data Via Protocol"]
     
     lazy var subViewControllers: [UIViewController] = { return [
         
@@ -60,7 +61,9 @@ class MainViewControllerWithTable: UIViewController {
         
         UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "AutoLayoutViaCodeViewController") as! AutoLayoutViaCodeViewController,
         
-        UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "CountriesAPIViewController") as! CountriesAPIViewController]
+        UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "CountriesAPIViewController") as! CountriesAPIViewController,
+        
+        UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "FirstProtocolViewController") as! FirstProtocolViewController]
 
     }()
 

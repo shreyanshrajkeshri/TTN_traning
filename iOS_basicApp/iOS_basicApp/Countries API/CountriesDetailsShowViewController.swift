@@ -28,11 +28,11 @@ class CountriesDetailsShowViewController: UIViewController {
     var region = ""
     var subRegion = ""
     var nativeName = ""
+    var url = ""
 
     
     var notFound: UIImage = #imageLiteral(resourceName: "NotFound")
-    var url = ""
-    
+   
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -46,7 +46,7 @@ class CountriesDetailsShowViewController: UIViewController {
         subRegionLabel.text = "SubRegion : \(subRegion)"
         nativeNameLabel.text = "Native Name : \(nativeName)"
         
-        url  = "https://www.countryflags.io/\(alpha2Code)/flat/64.png"
+        //url  = "https://www.countryflags.io/\(alpha2Code)/flat/64.png"
         
         downloadImageFromURL(urlString: url)
     }
