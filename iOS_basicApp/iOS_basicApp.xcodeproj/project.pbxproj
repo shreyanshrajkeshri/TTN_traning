@@ -44,6 +44,7 @@
 		E1875EEF24160C1E007A9A6C /* TVCellForMainTable.xib in Resources */ = {isa = PBXBuildFile; fileRef = E1875EED24160C1E007A9A6C /* TVCellForMainTable.xib */; };
 		E1875EF3241615D1007A9A6C /* TabBarViaStoryBoard.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1875EF2241615D1007A9A6C /* TabBarViaStoryBoard.swift */; };
 		E1875EFE24161FB3007A9A6C /* MainViewControllerWithTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1875EFD24161FB3007A9A6C /* MainViewControllerWithTable.swift */; };
+		E19BEC722447267500676EA0 /* TextFieldDelegateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E19BEC712447267500676EA0 /* TextFieldDelegateViewController.swift */; };
 		E19DE26624448FA300F6E740 /* FirstProtocolViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E19DE26524448FA300F6E740 /* FirstProtocolViewController.swift */; };
 		E19DE26824448FB300F6E740 /* SecondProtocolViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E19DE26724448FB300F6E740 /* SecondProtocolViewController.swift */; };
 		E1B6E141243DF357001A50F2 /* CountriesDetailsShowViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1B6E140243DF357001A50F2 /* CountriesDetailsShowViewController.swift */; };
@@ -115,6 +116,7 @@
 		E1875EED24160C1E007A9A6C /* TVCellForMainTable.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TVCellForMainTable.xib; sourceTree = "<group>"; };
 		E1875EF2241615D1007A9A6C /* TabBarViaStoryBoard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViaStoryBoard.swift; sourceTree = "<group>"; };
 		E1875EFD24161FB3007A9A6C /* MainViewControllerWithTable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewControllerWithTable.swift; sourceTree = "<group>"; };
+		E19BEC712447267500676EA0 /* TextFieldDelegateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldDelegateViewController.swift; sourceTree = "<group>"; };
 		E19DE26524448FA300F6E740 /* FirstProtocolViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstProtocolViewController.swift; sourceTree = "<group>"; };
 		E19DE26724448FB300F6E740 /* SecondProtocolViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondProtocolViewController.swift; sourceTree = "<group>"; };
 		E1B6E140243DF357001A50F2 /* CountriesDetailsShowViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountriesDetailsShowViewController.swift; sourceTree = "<group>"; };
@@ -253,6 +255,7 @@
 				E1D946B8241A30B100B3D8DE /* Auto Layout */,
 				E1B6E13F243DF327001A50F2 /* Countries API */,
 				E19DE26424448F0C00F6E740 /* Pass Data Via Protocol */,
+				E19BEC732447268500676EA0 /* Text Field Delegate */,
 			);
 			path = iOS_basicApp;
 			sourceTree = "<group>";
@@ -283,6 +286,14 @@
 				E1875EED24160C1E007A9A6C /* TVCellForMainTable.xib */,
 			);
 			path = MainTable;
+			sourceTree = "<group>";
+		};
+		E19BEC732447268500676EA0 /* Text Field Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				E19BEC712447267500676EA0 /* TextFieldDelegateViewController.swift */,
+			);
+			path = "Text Field Delegate";
 			sourceTree = "<group>";
 		};
 		E19DE26424448F0C00F6E740 /* Pass Data Via Protocol */ = {
@@ -478,6 +489,7 @@
 				E16D2A40241F95F80054BF89 /* StackViewController.swift in Sources */,
 				E1875EF3241615D1007A9A6C /* TabBarViaStoryBoard.swift in Sources */,
 				E18592DA240D736A008C42D3 /* AppDelegate.swift in Sources */,
+				E19BEC722447267500676EA0 /* TextFieldDelegateViewController.swift in Sources */,
 				E15A556E240E43930039AD71 /* ThirdViewController.swift in Sources */,
 				E15D21B8241660D30081709A /* DetailsTableViewCell.swift in Sources */,
 				E1051E6A240FB47B005D47F0 /* UIPageMainViewController.swift in Sources */,
