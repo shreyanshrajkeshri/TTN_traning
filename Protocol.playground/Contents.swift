@@ -286,7 +286,31 @@ extension Int: NumbericModifiable {}
 5.increment()
 10.multiplyBy10()
 
+enum FirstError : Error {
+    case initialisationFailed
+}
 
+class FirstClass {
+    var abc: String?
+    
+    init?(xyz : String?) throws {
+        
+        if xyz!.isEmpty {
+            throw FirstError.initialisationFailed
+        } else {
+        self.abc = xyz
+        }
+    }
+    
+}
+
+
+
+do {
+    _ = try FirstClass(xyz: nil)
+} catch FirstError.initialisationFailed {
+    print("Object Not Initialized")
+}
 
 
 
