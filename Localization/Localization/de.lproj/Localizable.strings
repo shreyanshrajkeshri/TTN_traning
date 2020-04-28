@@ -1,0 +1,10 @@
+/* 
+  Localizable.strings
+  Localization
+
+  Created by Shreyansh Raj on 28/04/20.
+  Copyright © 2020 Shreyansh Raj. All rights reserved.
+*/
+
+
+"MyKey" = "Willkommen bei der App-Lokalisierung";
