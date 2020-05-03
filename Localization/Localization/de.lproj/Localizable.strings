@@ -7,4 +7,5 @@
 */
 
 
-"MyKey" = "Willkommen bei der App-Lokalisierung";
+"TextKey" = "Willkommen bei der App-Lokalisierung";
+"ImageKey" = "german_img";
