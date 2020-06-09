@@ -42,10 +42,11 @@ class FirstProtocolViewController: UIViewController {
 extension FirstProtocolViewController: Nameable {
     
     //Step 5. Add the function and set the passes data to label.text
-    func setName(Name: String) {
+    func getInfo(name: String, age: String, parentsName: String) {
         
-        nameLabel.text = "Hello \(Name), \n How Are You"
+        nameLabel.text = "Name : \(name) \nAge : \(age) \nParent's Name : \(parentsName)"
     }
     
+
     
 }

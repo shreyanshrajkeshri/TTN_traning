@@ -11,6 +11,8 @@
 		E1051E6C240FB9F8005D47F0 /* OneViewControllerForPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1051E6B240FB9F8005D47F0 /* OneViewControllerForPage.swift */; };
 		E1051E6E240FBA0F005D47F0 /* TwoViewControllerForPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1051E6D240FBA0F005D47F0 /* TwoViewControllerForPage.swift */; };
 		E1051E70240FBA23005D47F0 /* ThreeViewControllerForPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1051E6F240FBA23005D47F0 /* ThreeViewControllerForPage.swift */; };
+		E13069E5248F543E00A76EF4 /* NC2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E13069E4248F543E00A76EF4 /* NC2ViewController.swift */; };
+		E13069E7248F54C200A76EF4 /* NC1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E13069E6248F54C200A76EF4 /* NC1ViewController.swift */; };
 		E13A19212418F68A00CB31DB /* LayoutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E13A19202418F68A00CB31DB /* LayoutViewController.swift */; };
 		E149FA19240E0FC70044A5CF /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E149FA18240E0FC70044A5CF /* WelcomeViewController.swift */; };
 		E149FA1B240E0FD80044A5CF /* SegmentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E149FA1A240E0FD80044A5CF /* SegmentViewController.swift */; };
@@ -77,6 +79,8 @@
 		E1051E6B240FB9F8005D47F0 /* OneViewControllerForPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OneViewControllerForPage.swift; sourceTree = "<group>"; };
 		E1051E6D240FBA0F005D47F0 /* TwoViewControllerForPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwoViewControllerForPage.swift; sourceTree = "<group>"; };
 		E1051E6F240FBA23005D47F0 /* ThreeViewControllerForPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThreeViewControllerForPage.swift; sourceTree = "<group>"; };
+		E13069E4248F543E00A76EF4 /* NC2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NC2ViewController.swift; sourceTree = "<group>"; };
+		E13069E6248F54C200A76EF4 /* NC1ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NC1ViewController.swift; sourceTree = "<group>"; };
 		E13A19202418F68A00CB31DB /* LayoutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LayoutViewController.swift; sourceTree = "<group>"; };
 		E149FA18240E0FC70044A5CF /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
 		E149FA1A240E0FD80044A5CF /* SegmentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SegmentViewController.swift; sourceTree = "<group>"; };
@@ -161,6 +165,15 @@
 				E1051E6F240FBA23005D47F0 /* ThreeViewControllerForPage.swift */,
 			);
 			path = PageViewController;
+			sourceTree = "<group>";
+		};
+		E13069E3248F542000A76EF4 /* Notification Center */ = {
+			isa = PBXGroup;
+			children = (
+				E13069E6248F54C200A76EF4 /* NC1ViewController.swift */,
+				E13069E4248F543E00A76EF4 /* NC2ViewController.swift */,
+			);
+			path = "Notification Center";
 			sourceTree = "<group>";
 		};
 		E13A191F241896C300CB31DB /* Details Add In tableView */ = {
@@ -256,6 +269,7 @@
 				E1B6E13F243DF327001A50F2 /* Countries API */,
 				E19DE26424448F0C00F6E740 /* Pass Data Via Protocol */,
 				E19BEC732447268500676EA0 /* Text Field Delegate */,
+				E13069E3248F542000A76EF4 /* Notification Center */,
 			);
 			path = iOS_basicApp;
 			sourceTree = "<group>";
@@ -475,6 +489,7 @@
 				E15D21B124165C2B0081709A /* DetailsViewController.swift in Sources */,
 				E149FA1B240E0FD80044A5CF /* SegmentViewController.swift in Sources */,
 				E15A5570240E439E0039AD71 /* FourthViewController.swift in Sources */,
+				E13069E7248F54C200A76EF4 /* NC1ViewController.swift in Sources */,
 				E1051E6E240FBA0F005D47F0 /* TwoViewControllerForPage.swift in Sources */,
 				E19DE26624448FA300F6E740 /* FirstProtocolViewController.swift in Sources */,
 				E15A556A240E43810039AD71 /* FirstViewController.swift in Sources */,
@@ -483,6 +498,7 @@
 				E16D2A3C241F851C0054BF89 /* CalculatorViaStackViewController.swift in Sources */,
 				E1051E6C240FB9F8005D47F0 /* OneViewControllerForPage.swift in Sources */,
 				E15A557B240EB6D30039AD71 /* MainTabViewController.swift in Sources */,
+				E13069E5248F543E00A76EF4 /* NC2ViewController.swift in Sources */,
 				E15A557F240EB73C0039AD71 /* TabTwoViewController.swift in Sources */,
 				E16D2A42241FF4C00054BF89 /* AutoLayoutViaCodeViewController.swift in Sources */,
 				E15A556C240E438A0039AD71 /* SecondViewController.swift in Sources */,

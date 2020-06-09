@@ -11,12 +11,14 @@ import UIKit
 
 //Step 1. Create a Protocol with a func
 protocol Nameable {
-    func setName(Name: String)
+    func getInfo(name: String, age: String, parentsName: String)
 }
 
 class SecondProtocolViewController: UIViewController {
 
     @IBOutlet weak var nameTextField: UITextField!
+    @IBOutlet weak var ageTextField: UITextField!
+    @IBOutlet weak var parentNameTextField: UITextField!
     
     
     //Step 2. Declare that
@@ -33,7 +35,10 @@ class SecondProtocolViewController: UIViewController {
         
         //Step 3. Access the Function and Set the input text which come from textField now go to FirstProtocolViewController
         
-        delegate.setName(Name: nameTextField.text!)
+        
+        delegate.getInfo(name: nameTextField.text ?? "Name",
+                         age: ageTextField.text ?? "21",
+                         parentsName: parentNameTextField.text ?? "parentsName")
         
         self.navigationController?.popViewController(animated: true)
     }

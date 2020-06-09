@@ -28,7 +28,8 @@ class MainViewControllerWithTable: UIViewController {
                      "Auto Layout via Code",
                      "Countries Get API",
                      "Pass Data Via Protocol",
-                     "Text Field Delegate"]
+                     "Text Field Delegate",
+                     "Notifiaction Center"]
     
     lazy var subViewControllers: [UIViewController] = { return [
         
@@ -66,7 +67,9 @@ class MainViewControllerWithTable: UIViewController {
         
         UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "FirstProtocolViewController") as! FirstProtocolViewController,
         
-        UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "TextFieldDelegateViewController") as! TextFieldDelegateViewController
+        UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "TextFieldDelegateViewController") as! TextFieldDelegateViewController,
+        
+        UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "NC1ViewController") as! NC1ViewController
         
         ]
 
